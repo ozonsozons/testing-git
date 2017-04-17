@@ -1,0 +1,17 @@
+[alias]
+	last = log -1 HEAD
+	co = checkout
+	st = status
+	br = branch
+	ci = commit
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lga = log --graph --oneline --decorate --all
+	lol = log --graph --pretty=format:'%Cred%h%Creset -%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --date=relative
+	lola = !git lol --all && 0
+	lg1 = log --graph --oneline --decorate
+[user]
+	name = Oskars Zalcmanis
+	email = oskars.zalcmanis@accenture.com
+
+[fetch] 
+	prune = true
