@@ -1,0 +1,2 @@
+This file has testing information:
+How to use git - some manual.
